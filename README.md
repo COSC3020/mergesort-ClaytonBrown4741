@@ -15,3 +15,9 @@ part of the array each recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+CODE SHOULD BE RUNNING FINE RIGHT NOW! I WILL DO THE COMPLEXITY LATER!  
+I used the following sources to make my code:  
+https://www.geeksforgeeks.org/in-place-merge-sort/  
+https://www.studytonight.com/python-programs/python-program-for-iterative-merge-sort  
+

@@ -17,7 +17,7 @@ its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
 
 CODE SHOULD BE RUNNING FINE RIGHT NOW! I WILL DO THE COMPLEXITY LATER!  
-I used the following sources to make my code:  
+I used the following sources along with the various information from the slides to make my code:  
 https://www.geeksforgeeks.org/in-place-merge-sort/  
 https://www.studytonight.com/python-programs/python-program-for-iterative-merge-sort  
 

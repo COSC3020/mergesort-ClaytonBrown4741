@@ -26,5 +26,11 @@ the array uses a for loop that goes through array one power of 2 at a time. Beca
 that the loop repeats log(n) number of times. After that, the code will loop through each element of the  
 array at least once which means that the complexity of this section will be at *least* n number of times. However, even  
 if the code has to go over more steps in the array, it will simply multiply the n by a constant value,  
-which can be ignored asymptotically speaking. So in the end, the answer would simply be $\Theta(nlogn)$
+which can be ignored asymptotically speaking. So in the end, the answer would simply be $\Theta(nlogn)$.  
+Now, it is worth noting that there are a few notable changes in the code. The most prominent of these changes  
+is the fact that it is now in-place as opposed to recursive mergesort which is not in place. Technically speaking,  
+this does actually make the code slightly longer than usual, as the code cannot simply move the entries to another  
+array to manipulate as they please. Instead, a sorting algorithm not too dissimilar to Insertion Sort has to be  
+used on the array, which does usually take longer. From an asymptotic view-point, however, this change in time  
+is not significant and therefore does not affect the answer shown above.
 

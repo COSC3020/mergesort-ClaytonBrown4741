@@ -16,8 +16,15 @@ Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
 
-CODE SHOULD BE RUNNING FINE RIGHT NOW! I WILL DO THE COMPLEXITY LATER!  
 I used the following sources along with the various information from the slides to make my code:  
 https://www.geeksforgeeks.org/in-place-merge-sort/  
 https://www.studytonight.com/python-programs/python-program-for-iterative-merge-sort  
+
+The $\Theta$ bound for the worst case runtime of this algorithm should be the exact same as a normal  
+mergesort: $\Theta(nlogn)$. This can be seen by viewing the code that has been submitted. In the code,  
+the array uses a for loop that goes through array one power of 2 at a time. Because of this, that means  
+that the loop repeats log(n) number of times. After that, the code will loop through each element of the  
+array at least once which means that the complexity of this section will be at *least* n number of times. However, even  
+if the code has to go over more steps in the array, it will simply multiply the n by a constant value,  
+which can be ignored asymptotically speaking. So in the end, the answer would simply be $\Theta(nlogn)$
 

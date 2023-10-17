@@ -16,6 +16,13 @@ Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
 
+**QUESTION**: After looking through my code a bit more, I believe that the answer to the  
+worst case scenario may be $\Theta(n^2logn)$. I believe this due to me essentially using  
+an insertion sort at the bottom of the loop for mergesort, and insertion sort's worst time  
+complexity is actually $n^2$ Is this the correct answer, or is it moving  
+in the wrong direction? If it is wrong, could you please give me some insight into where I  
+may be messing up? Thank you in advance for your help on this.
+
 I used the following sources along with the various information from the slides to make my code:  
 https://www.geeksforgeeks.org/in-place-merge-sort/  
 https://www.studytonight.com/python-programs/python-program-for-iterative-merge-sort  
